@@ -29,7 +29,7 @@
     }
   },
   "bin": {
-    "env-doctor": "./dist/cli.js"
+    "env-doctor": "dist/cli.js"
   },
   "files": [
     "dist",
