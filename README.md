@@ -1,5 +1,3 @@
-rewrite this file more proffetional more proffetional : # env-doctor
-
 ![env-doctor banner](env_doctor_reddit_banner.svg)
 
 **Zero-dependency TypeScript-first environment variable validator.**  
