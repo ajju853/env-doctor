@@ -1,5 +1,7 @@
 # env-doctor
 
+![env-doctor banner](env_doctor_reddit_banner.svg)
+
 **Zero-dependency TypeScript-first environment variable validator.**  
 Tells you exactly what's wrong in plain English — not a wall of errors.
 
@@ -167,6 +169,20 @@ const env = validate(schema);
 | Framework agnostic       | ✓          | ✓       | ✓      | ✓            |
 
 envalid is unmaintained. dotenv has no validation. Zod requires manual parsing boilerplate. env-doctor is purpose-built for env validation with zero ceremony.
+
+## Built with
+
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
+![tsup](https://img.shields.io/badge/tsup-000?style=for-the-badge&logo=npm&logoColor=white)
+![Vitest](https://img.shields.io/badge/Vitest-6E9F18?style=for-the-badge&logo=vitest&logoColor=white)
+![Zero deps](https://img.shields.io/badge/dependencies-0-brightgreen?style=for-the-badge)
+
+- **TypeScript** — full type inference from schema
+- **Node.js** — works with any framework (Express, Fastify, Next.js, etc.)
+- **tsup** — dual ESM + CJS bundle
+- **Vitest** — 66+ tests
+- **Zero runtime dependencies** — <5 KB install size
 
 ## License
 
