@@ -81,7 +81,7 @@ async function main(): Promise<void> {
 
   Create an env.schema.ts file in your project root:
 
-    import type { Schema } from 'env-doctor';
+    import type { Schema } from '@ajjupateldev/env-doctor';
     export default {
       PORT: { type: 'port', required: true },
       DATABASE_URL: { type: 'url', required: true },

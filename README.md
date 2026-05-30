@@ -6,7 +6,7 @@
 Tells you exactly what's wrong in plain English — not a wall of errors.
 
 ```ts
-import { validate } from 'env-doctor';
+import { validate } from '@ajjupateldev/env-doctor';
 
 const env = validate({
   PORT: { type: 'port', required: true },
@@ -26,13 +26,13 @@ Existing tools either require heavy boilerplate (Zod), are unmaintained (envalid
 ## Install
 
 ```sh
-npm install env-doctor
+npm install @ajjupateldev/env-doctor
 ```
 
 ## Quick start
 
 ```ts
-import { validate } from 'env-doctor';
+import { validate } from '@ajjupateldev/env-doctor';
 
 const env = validate({
   PORT: { type: 'port', required: true },
@@ -99,7 +99,7 @@ All field types accept these options:
 ### `.env.example` generation
 
 ```ts
-import { generateExample } from 'env-doctor';
+import { generateExample } from '@ajjupateldev/env-doctor';
 
 generateExample({
   PORT: { type: 'port', required: true, description: 'Server port', example: '3000' },
@@ -136,8 +136,8 @@ env-doctor looks for `env.schema.ts`, `env.config.ts`, `env.schema.js`, or `env.
 ## TypeScript inference
 
 ```ts
-import { validate } from 'env-doctor';
-import type { InferEnv, Schema } from 'env-doctor';
+import { validate } from '@ajjupateldev/env-doctor';
+import type { InferEnv, Schema } from '@ajjupateldev/env-doctor';
 
 const schema = {
   PORT: { type: 'port' },

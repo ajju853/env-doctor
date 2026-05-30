@@ -1,5 +1,5 @@
 {
-  "name": "env-doctor",
+  "name": "@ajjupateldev/env-doctor",
   "version": "1.0.0",
   "description": "Zero-dependency TypeScript-first environment variable validator with beautiful terminal output",
   "type": "module",
